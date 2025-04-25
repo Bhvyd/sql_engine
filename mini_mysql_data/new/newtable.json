@@ -1,0 +1,16 @@
+{
+  "columns": {
+    "col1": {
+      "type": "int",
+      "primary_key": false,
+      "not_null": false
+    },
+    "col2": {
+      "type": "text",
+      "primary_key": false,
+      "not_null": false
+    }
+  },
+  "primary_key": null,
+  "rows": []
+}

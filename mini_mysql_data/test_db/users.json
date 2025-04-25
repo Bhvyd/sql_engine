@@ -1,0 +1,39 @@
+{
+  "columns": {
+    "id": {
+      "type": "int",
+      "primary_key": true,
+      "not_null": false
+    },
+    "name": {
+      "type": "varchar(50)",
+      "primary_key": false,
+      "not_null": true
+    },
+    "email": {
+      "type": "varchar(100)",
+      "primary_key": false,
+      "not_null": false
+    },
+    "age": {
+      "type": "int",
+      "primary_key": false,
+      "not_null": false
+    }
+  },
+  "primary_key": "id",
+  "rows": [
+    {
+      "id": 1,
+      "name": "john doe",
+      "email": "john.doe@example.com",
+      "age": 32
+    },
+    {
+      "id": 2,
+      "name": "jane smith",
+      "email": "jane@example.com",
+      "age": 25
+    }
+  ]
+}

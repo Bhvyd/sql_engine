@@ -1,0 +1,21 @@
+{
+  "columns": {
+    "id": {
+      "type": "int",
+      "primary_key": true,
+      "not_null": false
+    },
+    "title": {
+      "type": "text",
+      "primary_key": false,
+      "not_null": true
+    },
+    "price": {
+      "type": "float",
+      "primary_key": false,
+      "not_null": false
+    }
+  },
+  "primary_key": "id",
+  "rows": []
+}

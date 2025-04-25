@@ -1,0 +1,46 @@
+{
+  "columns": {
+    "order_id": {
+      "type": "int",
+      "primary_key": true,
+      "not_null": false
+    },
+    "user_id": {
+      "type": "int",
+      "primary_key": false,
+      "not_null": false
+    },
+    "product_id": {
+      "type": "int",
+      "primary_key": false,
+      "not_null": false
+    },
+    "quantity": {
+      "type": "int",
+      "primary_key": false,
+      "not_null": false
+    },
+    "order_date": {
+      "type": "varchar(20)",
+      "primary_key": false,
+      "not_null": false
+    }
+  },
+  "primary_key": "order_id",
+  "rows": [
+    {
+      "order_id": 1001,
+      "user_id": 1,
+      "product_id": 101,
+      "quantity": 2,
+      "order_date": "2025-04-20"
+    },
+    {
+      "order_id": 1002,
+      "user_id": 2,
+      "product_id": 102,
+      "quantity": 2,
+      "order_date": "2025-04-21"
+    }
+  ]
+}
